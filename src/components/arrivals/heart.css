@@ -1,0 +1,24 @@
+.heartclass{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    z-index: 99;
+    position: absolute;
+    right: 0;
+    top:15%;
+    animation: animate4 1s ease-in;
+    border: 1px solid rgb(158, 154, 154);
+    padding-left: 20px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+.Favorite{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px 0 0;
+    margin: auto;
+    border-bottom: 1px solid rgb(177, 159, 159);
+    color: var(--maincolor);
+    position: relative;
+}

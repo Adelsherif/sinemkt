@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Josefin+Sans:wght@100;200;300;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root{
+    --maincolor:#e99c2e
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #fffefb;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.header{
+    background-color: #e9c7a536;
+}
+.header input{
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    font-size: 16px;
+    display: none;
+    animation: animate1 .5s ease-in;
+}
+@keyframes animate1{
+    0%{
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 0;
+    }
+    100%{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+@keyframes animate2{
+    0%{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    100%{
+       
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 0;
+    }
+}
+.header .logo{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .container h1 span{
+    color:var(--maincolor) ;
+}
+
+.header .container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    align-items: center;
+}
+@media (max-width: 1200px){
+    .container{
+        width: 90% !important;
+    }
+}
+.header .container .parent{
+    width: 70% ;
+}
+.header .container .inner{
+    width: 100% ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .container .links{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+
+} 
+
+.header .container .links li a{
+    font-size: 18px;
+    color: black;
+}
+.header .container .links li a:hover{
+    color:var(--maincolor) ;
+}
+.header .container ul .active{
+    color:var(--maincolor) ;
+}
+.header .container .icons {
+    width: 20%;
+}
+.header .container .icons ul{
+    display: flex;
+    justify-content: space-between;
+}
+.header .container .icons ul .icon{
+    font-size: 18px;
+}
+.header .container .icons ul .carparent {
+    position: relative;
+}
+.header .container .icons ul .carparent span{
+    position: absolute;
+    top:-18px;
+    right: -8px;
+    background-color:var(--maincolor) ;
+   width: 20px;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+}
+.header .bar{
+    transform: rotate(180deg);
+    font-size: 22px;
+    display: none;
+}
+@media (max-width:992px){
+    .header .container{
+        flex-direction: column;
+    }
+    .header .logo{
+        width: 90%;
+    }
+    .header .parent{
+        display: none ;
+        background-color: #f7f0e6;
+        width: 100% !important;
+    }
+      .header .inner{
+        flex-direction: column;
+       
+      }
+      .header .links {
+          flex-direction: column;
+          line-height: 3;
+      }
+      .header .icons{
+          width: 50% !important;
+      }
+.header .bar{
+    display: block;
+}
+}

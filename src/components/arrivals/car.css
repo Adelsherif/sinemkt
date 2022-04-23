@@ -1,0 +1,66 @@
+.shoppingbasket{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px 0 0;
+    margin: auto;
+    border-bottom: 1px solid rgb(177, 159, 159);
+    color: var(--maincolor);
+    position: relative;
+}
+.carclass{
+    width: 50%;
+    display: none;
+    background-color: white;
+    z-index: 99;
+    position: absolute;
+    right: 0;
+    top:15%;
+    animation: animate4 .3s ease-in;
+    border: 1px solid rgb(158, 154, 154);
+    padding-left: 20px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+.product-in {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    align-items: center;
+    border: 1px solid rgb(173, 171, 171);
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+.product-in span{
+    color:#e99c2e ;
+    cursor: pointer;
+}
+.total{
+    width: 88%;
+    font-size: 16px;
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+@keyframes animate4{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 50%;
+    }
+}
+@media (max-width:992px){
+.product-in {
+   flex-direction: column;
+   justify-content: center;
+}
+.carclass{
+    width: 100%;
+}
+}

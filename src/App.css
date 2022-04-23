@@ -1,0 +1,19 @@
+html{
+  scroll-behavior: smooth;
+}
+.totop{
+  position: relative;
+  width: 100%;
+}
+.totop button{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding:15px;
+  border: none;
+  background-color:#e99c2e;
+  border-radius: 50%;
+  color: white;
+  z-index: 999;
+  display: none;
+}

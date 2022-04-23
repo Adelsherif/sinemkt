@@ -1,0 +1,62 @@
+.arrivals h1{
+    text-align: center;
+    color: rgb(90, 87, 87);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-weight: 600;
+}
+.arrivals .container{
+    width: 80%;
+    margin: auto;
+    padding-top: 15px;
+    align-items: center;
+}
+.arrivals .container .products{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+   text-align: center;
+}
+.arrivals .container .products .product{
+    width: 22%;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.arrivals .container .products .product .image{
+    position: relative;
+    background-color: rgb(245, 242, 242);
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+.arrivals .container .products .product .icons{
+     display: flex;
+     width: 100%;
+     justify-content: space-around;
+     align-items: center;
+     margin: auto ;  
+     background-color: rgb(4, 19, 34);  
+     color: white;
+     padding: 0;
+     cursor: pointer;
+}
+.arrivals .container .products .product .text{
+    color: grey;
+}
+.arrivals .container .products .product .text h3{
+    color: #e99c2e;
+    font-weight: 500;
+}
+@media (max-width:992px){
+.arrivals .container .products .product{
+    width: 30%;
+}
+}
+@media (max-width:768px){
+    .arrivals .container .products{
+        flex-direction: column;
+    } 
+.arrivals .container .products .product{
+    width: 90%;
+}
+}

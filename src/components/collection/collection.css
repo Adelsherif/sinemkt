@@ -1,0 +1,43 @@
+
+.collection{
+    background-image: url(./sofa-collection-banner.jpg);
+    height: 80vh;
+    position: relative;
+}
+.collection .container{
+    width: 80%;
+    margin: auto;
+    padding-top: 60px;
+}
+.collection .container .text{
+    width: 50%;
+    line-height: 2;
+    letter-spacing: 2px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.425);
+    height: 80vh;
+    position: absolute;
+    top:0;
+    left: 0;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.collection .container .text .inner{
+     width: 80%;
+}
+.collection .container .text .inner a{
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+}
+.collection .container .text .inner h4 span{
+    color: #e99c2e;
+}
+@media (max-width:992px){
+.collection .container .text{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+}

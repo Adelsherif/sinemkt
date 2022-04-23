@@ -1,0 +1,66 @@
+body{
+    padding: 0;
+}
+.footer{
+
+}
+.footer .container{
+    width: 80%;
+    margin: auto;
+}
+.footer .container .links{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    line-height: 2;
+    flex-wrap: wrap;
+}
+.footer .container .links .letter{
+    width: 25%;
+}
+.footer .container .links .letter form{
+    position: relative;
+
+}
+.footer .container .links .letter form input{
+    padding: 15px 20px ;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: 14px;
+    border: none;
+    width: 70%;
+}
+.footer .container .links .letter form span{
+     position: absolute;
+     top:20%;
+     right: 20%;
+     color: #e99c2e;
+     font-size: 18px;
+}
+.footer .container .links a{
+    color: grey;
+}
+.footer .container .icons{
+    width: 100%;
+    color: rgb(109, 106, 106);
+    margin-top: 60px;
+}
+.footer .container .icons ul{
+    width: 12%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    font-size: 18px;
+}
+.footer .container .icons p{
+    text-align: center;
+}
+@media (max-width:992px){
+.footer .container .links .letter,.info,.c1,.account{
+    width: 50%;
+}
+}
+@media (max-width:768px){
+    .footer .container .links .letter,.info,.c1,.account{
+        width: 100%;
+    }
+    }
