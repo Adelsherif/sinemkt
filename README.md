@@ -3,8 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 <br />
 <h3><a href="https://adelsherif.github.io/sinemkt/">Live</a></h3>
-<br />
-<br />
+
 <img src="https://github.com/Adelsherif/sinemkt/blob/master/Untitled-9.jpg" alt="image" />
 
 ## Available Scripts
