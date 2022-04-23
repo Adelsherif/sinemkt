@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/sinemkt/static/css/main.77f1b913.css",
+    "main.css": "/sinemkt/static/css/main.0f9b3747.css",
     "main.js": "/sinemkt/static/js/main.5ec83063.js",
     "static/js/787.f6b89c4d.chunk.js": "/sinemkt/static/js/787.f6b89c4d.chunk.js",
     "static/media/slider1.png": "/sinemkt/static/media/slider1.f5721642ea653c7a5c0d.png",
@@ -23,12 +23,12 @@
     "static/media/b1.jpg": "/sinemkt/static/media/b1.f70ced8c2c4c77b2e589.jpg",
     "static/media/arrivals5.png": "/sinemkt/static/media/arrivals5.c73df9a4b9c58671b936.png",
     "index.html": "/sinemkt/index.html",
-    "main.77f1b913.css.map": "/sinemkt/static/css/main.77f1b913.css.map",
+    "main.0f9b3747.css.map": "/sinemkt/static/css/main.0f9b3747.css.map",
     "main.5ec83063.js.map": "/sinemkt/static/js/main.5ec83063.js.map",
     "787.f6b89c4d.chunk.js.map": "/sinemkt/static/js/787.f6b89c4d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.77f1b913.css",
+    "static/css/main.0f9b3747.css",
     "static/js/main.5ec83063.js"
   ]
 }
